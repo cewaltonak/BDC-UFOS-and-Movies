@@ -14,23 +14,11 @@ R.version.string
 # === PROJECT INFORMATION =====================================================
 
 # [QUESTION]
-# Find out how well the maximum temperature and precipitation varies from west 
-# to east across the Coast Mountains. Mountain ranges strongly influence 
-# rainfall but how does it affect max temperature? Is the pattern the same?
-
-# Weather stations to examine: 
-# Vancouver, Squamish, Pemberton, Lillooet
+# What is the association between certain movie releases and ufo sightings?
 
 
 # === LIBRARIES & SOURCES  ====================================================
 
-install.packages("weathercan")
-install.packages("devtools")
-devtools::install_github("ropensci/weathercan")
-
-library("weathercan")
-library("devtools")
-library(nlme)
 
 # === FOLDER MANAGEMENT =======================================================
 
